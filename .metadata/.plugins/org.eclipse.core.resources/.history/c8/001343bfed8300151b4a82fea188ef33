@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Word Experiment</title>
+</head>
+<script>
+
+var wordList=["a","b","c","d","e","f","g","h"];
+
+function displayWords(var wordList){
+	
+	for (i=0;i<=wordList.length;i++){
+		window.alert(wordList[i]);
+		
+	}
+	
+}
+
+
+//window.alert();
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+<body onload="displayWords(wordList)">
+Here is the body
+</body>
+</html>
+

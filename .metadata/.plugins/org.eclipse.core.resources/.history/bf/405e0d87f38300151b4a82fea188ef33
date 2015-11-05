@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+function displayWords(){
+	var wordList=["a","b","c"];
+	for (i=0;i<wordList.length;setTimeout(i++,30000)){
+		window.alert(wordList[i]);
+		//document.write(wordList[i]);
+		
+	}
+	
+}
+
+function y(){
+	for (var i = 1; i <= 3; i++) {
+	    (function(index) {
+	        setTimeout(function() { alert(index); }, i * 1000);
+	    })(i);
+	}
+	
+}
+
+function x(){
+	for (var i = 0; i < wordList.length; i++) {
+		var wordList=["a","b","c"];
+	    (function(index) {
+	        setTimeout(function() { alert(wordList[index]); }, i * 1000);
+	    })(i);
+	}
+	
+	
+	
+}
+

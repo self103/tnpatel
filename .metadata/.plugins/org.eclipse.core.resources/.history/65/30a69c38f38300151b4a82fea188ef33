@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Word Experiment</title>
+<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<script type="text/javascript" src="wordPopulate.js"></script>
+
+<body onload="displayWords()">
+<input type="button" name="clickMe" value="Click me and wait!"
+onclick="setTimeout('alert(\'Surprise!\')', 3000)"/>
+Here is the body
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+function displayWords(){
+	var wordList=["a","b","c"];
+	for (i=0;i<wordList.length;setTimeout(i++,3000)){
+		window.alert(wordList[i]);
+		//document.write(wordList[i]);
+		
+	}
+	
+}

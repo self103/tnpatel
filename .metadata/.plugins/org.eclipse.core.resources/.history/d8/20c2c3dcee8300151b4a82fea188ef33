@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Word Experiment</title>
+</head>
+<script type="text/javascript" src="wordPopulate.js"></script>
+
+<body onload="displayWords()">
+Here is the body
+</body>
+</html>
+

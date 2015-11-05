@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+function displayWords(){
+	var wordList=["a","b","c"];
+	for (i=0;i<wordList.length;setTimeout(i++,30000)){
+		window.alert(wordList[i]);
+		//document.write(wordList[i]);
+		
+	}
+	
+}
+for (var i = 0; i < wordList.length; i++) {
+    (function(index) {
+        setTimeout(function() { alert(index); }, i * 1000);
+    })(i);
+}
